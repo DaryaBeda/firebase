@@ -1,7 +1,7 @@
 importScripts('https://www.gstatic.com/firebasejs/3.7.2/firebase-app.js');
 importScripts('https://www.gstatic.com/firebasejs/3.7.2/firebase-messaging.js');
 
-var config = {
+/*var config = {
     apiKey: "AIzaSyDvdO9PkZe5RQGU7_gY_w3ApNzeUZI9nTI",
     authDomain: "sport-test-push.firebaseapp.com",
     databaseURL: "https://sport-test-push.firebaseio.com",
@@ -9,7 +9,10 @@ var config = {
     storageBucket: "sport-test-push.appspot.com",
     messagingSenderId: "461249772176"
   };
-  firebase.initializeApp(config);
+  firebase.initializeApp(config);*/
+firebase.initializeApp({
+    messagingSenderId: '461249772176'
+});
 
 firebase.messaging();
 
