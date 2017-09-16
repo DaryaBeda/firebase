@@ -1,4 +1,4 @@
-var config = {
+/*var config = {
     apiKey: "AIzaSyDvdO9PkZe5RQGU7_gY_w3ApNzeUZI9nTI",
     authDomain: "sport-test-push.firebaseapp.com",
     databaseURL: "https://sport-test-push.firebaseio.com",
@@ -7,7 +7,10 @@ var config = {
     messagingSenderId: "461249772176"
   };
   firebase.initializeApp(config);
-
+*/
+firebase.initializeApp({
+    messagingSenderId: '461249772176'
+});
 
 var bt_register = $('#register');
 var bt_delete = $('#delete');
